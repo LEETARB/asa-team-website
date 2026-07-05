@@ -22,12 +22,21 @@ const itpcMedia = Object.entries(mediaModules)
   })
   .concat(youtubeDemo);
 
+const projectIds = ["tajriba-platform", "itpc-management-system"];
+
+const mediaById = {
+  "itpc-management-system": itpcMedia,
+};
+
 export function getProjects(t) {
-  return t.work.projects.map((project, index) => ({
-    ...project,
-    id: index === 0 ? "itpc-management-system" : `project-${index + 1}`,
-    media: index === 0 ? itpcMedia : [],
-  }));
+  return t.work.projects.map((project, index) => {
+    const id = projectIds[index] ?? `project-${index + 1}`;
+    return {
+      ...project,
+      id,
+      media: mediaById[id] ?? [],
+    };
+  });
 }
 
 export function getItpcMedia() {

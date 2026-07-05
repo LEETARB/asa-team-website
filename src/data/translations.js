@@ -16,6 +16,9 @@ export const translations = {
       contactTeam: "Contact ASA TEAM",
       viewProject: "View Project",
       viewMedia: "View Media",
+      visitSite: "Visit Live Site",
+      viewCode: "View Code",
+      liveBadge: "Live",
       close: "Close",
       previous: "Previous",
       next: "Next",
@@ -90,6 +93,28 @@ export const translations = {
       projectMedia: "Project media",
       projectCount: "Project",
       projects: [
+        {
+          title: "Tajriba — تجربة",
+          category: "Brand Platform · Storefront & Operations System",
+          liveUrl: "https://tajrubaiq.com",
+          repoUrl: "https://github.com/LEETARB/asa-team-site-deploy",
+          description:
+            "A complete Iraqi education & lifestyle brand platform delivered end-to-end: a fully Arabic, right-to-left cinematic marketing site, a cash-on-delivery ordering system, an automated subscriber & marketing funnel, and a secure admin operations backend — deployed to production on the brand's own domain and email.",
+          achievement:
+            "Delivered the entire product — design, development, and deployment — now live at tajrubaiq.com, with a zero-touch subscriber pipeline, instant order notifications, and an 8× lighter, faster asset payload.",
+          features: [
+            "Arabic-first RTL design system",
+            "Cinematic animated hero",
+            "Cash-on-delivery ordering",
+            "Instant WhatsApp order alerts",
+            "Automated email + WhatsApp funnel",
+            "Secure JWT admin backend",
+            "Order-status workflow",
+            "Product catalog CRUD",
+            "8× lighter asset payload",
+          ],
+          stack: ["React", "Vite", "Node.js", "Express", "Supabase", "PostgreSQL", "Zod", "Twilio", "Resend", "Vercel", "Railway"],
+        },
         {
           title: "ITPC Management System",
           category: "Government Automation System",
@@ -166,6 +191,9 @@ export const translations = {
       contactTeam: "تواصل مع ASA TEAM",
       viewProject: "عرض المشروع",
       viewMedia: "عرض الوسائط",
+      visitSite: "زيارة الموقع المباشر",
+      viewCode: "الشيفرة المصدرية",
+      liveBadge: "مباشر",
       close: "إغلاق",
       previous: "السابق",
       next: "التالي",
@@ -240,6 +268,28 @@ export const translations = {
       projectMedia: "وسائط المشروع",
       projectCount: "مشروع",
       projects: [
+        {
+          title: "تجربة — Tajriba",
+          category: "منصة علامة تجارية · متجر ونظام عمليات",
+          liveUrl: "https://tajrubaiq.com",
+          repoUrl: "https://github.com/LEETARB/asa-team-site-deploy",
+          description:
+            "منصة متكاملة لعلامة تعليمية وحياتية عراقية تم تسليمها من الألف إلى الياء: موقع تسويقي عربي بالكامل بتصميم سينمائي (RTL)، نظام طلبات بالدفع عند الاستلام، قمع اشتراك وتسويق آلي، ولوحة إدارة وعمليات آمنة — منشورة على نطاق العلامة وبريدها الخاص.",
+          achievement:
+            "تسليم المنتج بالكامل — تصميماً وتطويراً ونشراً — وهو الآن مباشر على tajrubaiq.com، مع خط اشتراك آلي بالكامل، تنبيهات طلبات فورية، وحجم أصول أخف وأسرع بثمانية أضعاف.",
+          features: [
+            "نظام تصميم عربي (RTL) أولاً",
+            "واجهة رئيسية سينمائية متحركة",
+            "طلبات بالدفع عند الاستلام",
+            "تنبيهات طلبات فورية عبر واتساب",
+            "قمع بريد وواتساب آلي",
+            "لوحة إدارة آمنة عبر JWT",
+            "مسار حالات الطلب",
+            "إدارة كاملة للمنتجات (CRUD)",
+            "أصول أخف بثمانية أضعاف",
+          ],
+          stack: ["React", "Vite", "Node.js", "Express", "Supabase", "PostgreSQL", "Zod", "Twilio", "Resend", "Vercel", "Railway"],
+        },
         {
           title: "ITPC Management System",
           category: "نظام أتمتة حكومي",
